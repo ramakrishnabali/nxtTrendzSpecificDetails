@@ -1,0 +1,143 @@
+/* Write your CSS here */
+.product-details-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+.product-container {
+  display: flex;
+  width: 80%;
+  margin-top: 30px;
+}
+
+.product-image {
+  width: 45%;
+  height: 100%;
+  border-radius: 20px;
+}
+
+.product-description-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 30px;
+}
+
+.product-heading {
+  font-size: 30px;
+  font-family: 'Roboto';
+  font-weight: 800;
+  color: #1e293b;
+}
+.product-price {
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: 700;
+  color: #1e293b;
+}
+
+.rating-reviews-container {
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.rating-container {
+  background-color: #3b82f6;
+  color: #ffffff;
+  border: 0px solid transparent;
+  border-radius: 13px;
+  display: flex;
+  align-items: center;
+  height: 55px;
+  margin-right: 20px;
+}
+.star {
+  height: 20px;
+  width: 20px;
+  margin: 4px;
+}
+
+.rating {
+  font-size: 15px;
+  font-family: 'ROboto';
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.reviews {
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  color: #475569;
+}
+
+.plus-minus-container {
+  display: flex;
+  align-items: center;
+  width: 20%;
+  justify-content: space-between;
+}
+
+.minus-button {
+  cursor: pointer;
+}
+.add-cart-button {
+  background-color: #3b82f6;
+  color: #ffffff;
+  border: 0px solid transparent;
+  border-radius: 9px;
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  padding: 10px;
+  height: 50px;
+  width: 150px;
+  font-weight: 700;
+}
+
+.similar-heading {
+  font-size: 30px;
+  font-family: 'Roboto';
+  font-weight: 700;
+  color: #616e7c;
+  margin-left: 50px;
+}
+
+.similar-products-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 55px;
+  margin-left: 100px;
+}
+
+.ul-container {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.failure-image {
+  width: 100%;
+}
+
+.failure-heading {
+  font-size: 35px;
+  font-family: 'Roboto';
+  font-weight: 800;
+  color: #1e293b;
+}
+
+.failure-button {
+  background-color: #3b82f6;
+  color: #ffffff;
+  border: 0px solid transparent;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
